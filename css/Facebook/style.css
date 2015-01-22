@@ -1,0 +1,36 @@
+/* =The style for the feed
+-------------------------------------------------------------- */
+.fb-feed {
+    background-color:#C3D9FF;
+    padding:24px;
+}
+
+.fb-update {
+    //padding:24px;
+    padding: 5px 15px 5px 15px;
+    border-bottom:solid 1px rgb(0,0,0);
+    border-top:solid 1px rgb(70,70,70);
+}
+
+.fb-update:first-child {
+    padding-top:0;
+    border-top:none;
+}
+
+.fb-update:last-child {
+    padding-bottom:0;
+    border-bottom:none;
+}
+
+.fb-update h2 {
+    font-size:12px;
+    font-weight:700;
+    text-shadow:-1px 1px rgb(0,0,0);
+    margin-bottom:4px;
+}
+
+.fb-update p {
+    font-size:14px;
+    color:rgb(78,62,62);
+    margin-bottom:0;
+}
