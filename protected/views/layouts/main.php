@@ -114,6 +114,10 @@
                                 'visible'=>!Yii::app()->user->isGuest,
                              ),
                             
+                            array('label'=>'Usuarios',
+                                 'url'=>Yii::app()->user->ui->userManagementAdminUrl, 
+                                 'visible'=>!Yii::app()->user->isGuest),
+                            
                             array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                             array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
 
@@ -190,4 +194,7 @@
         
 
 </body>
+ 
+ <?php echo Yii::app()->user->ui->displayErrorConsole(); ?>    
+    
 </html>

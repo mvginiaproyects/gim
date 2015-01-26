@@ -50,8 +50,9 @@ class LoginForm extends CFormModel
 	{
 		if(!$this->hasErrors())
 		{
-			$this->_identity=new UserIdentity($this->username,$this->password);
-			if(!$this->_identity->authenticate())
+			//$this->_identity=new UserIdentity($this->username,$this->password);
+                        $this->_identity=new CrugeUser($this->username,$this->password);
+                        if(!$this->_identity->authenticate())
 				$this->addError('password','Incorrect username or password.');
 		}
 	}
@@ -64,10 +65,12 @@ class LoginForm extends CFormModel
 	{
 		if($this->_identity===null)
 		{
-			$this->_identity=new UserIdentity($this->username,$this->password);
+			//$this->_identity=new UserIdentity($this->username,$this->password);
+                        $this->_identity=new CrugeUser($this->username,$this->password);
 			$this->_identity->authenticate();
 		}
-		if($this->_identity->errorCode===UserIdentity::ERROR_NONE)
+		//if($this->_identity->errorCode===UserIdentity::ERROR_NONE)
+                if($this->_identity->errorCode===  CrugeUser::ERROR_NONE)
 		{
 			$duration=$this->rememberMe ? 3600*24*30 : 0; // 30 days
 			Yii::app()->user->login($this->_identity,$duration);
