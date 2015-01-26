@@ -9398,3 +9398,1667 @@ in C:\xampp\htdocs\gim\protected\views\administrarEventos\precios.php (53)
 in C:\xampp\htdocs\gim\protected\views\layouts\column1.php (2)
 in C:\xampp\htdocs\gim\protected\controllers\AdministrarEventosController.php (407)
 in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:48 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:48 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:48 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:48 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:34:49 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:34:49 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:50 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:50 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:50 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:50 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.db.ar.CActiveRecord] Socio.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `socio`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `socio`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_socio` AS `t0_c0`, `t`.`id_persona` AS `t0_c1`, `t`.`fecha_ingreso` AS `t0_c2`, `t`.`nombre` AS `t0_c3`, `t`.`apellido` AS `t0_c4`, `contratos`.`estado` AS `t1_c3`, `contratos`.`id_contrato` AS `t1_c0` FROM `socio` `t`  LEFT OUTER JOIN `contrato` `contratos` ON (`contratos`.`id_socio`=`t`.`id_socio`)  WHERE (estado=2)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.db.ar.CActiveRecord] Socio.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (109)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `socio` `t`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (109)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] TablasInicio.findAll()
+in C:\xampp\htdocs\gim\protected\views\site\index.php (14)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tablas_inicio`
+in C:\xampp\htdocs\gim\protected\views\site\index.php (14)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tablas_inicio`
+in C:\xampp\htdocs\gim\protected\views\site\index.php (14)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tablas_inicio` `t` WHERE columna=1 ORDER BY fila ASC
+in C:\xampp\htdocs\gim\protected\views\site\index.php (14)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] TablasInicio.findAll()
+in C:\xampp\htdocs\gim\protected\views\site\index.php (16)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tablas_inicio` `t` WHERE columna=2 ORDER BY fila ASC
+in C:\xampp\htdocs\gim\protected\views\site\index.php (16)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `persona`
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `persona`
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:34:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_asistencias.php (38)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (76)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+2015/01/26 11:34:56 [trace] [system.db.ar.CActiveRecord] Socio.findAll()
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_cumpleaniero.php (7)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (76)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+2015/01/26 11:34:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_socio` AS `t0_c0`, `t`.`id_persona` AS `t0_c1`, `t`.`fecha_ingreso` AS `t0_c2`, `t`.`nombre` AS `t0_c3`, `t`.`apellido` AS `t0_c4`, `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `socio` `t`  LEFT OUTER JOIN `persona` `idPersona` ON (`t`.`id_persona`=`idPersona`.`id_persona`)  WHERE (DAYOFMONTH(fecha_nac)=DAYOFMONTH(CURDATE()) AND MONTH(fecha_nac)=MONTH(CURDATE()))
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_cumpleaniero.php (7)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (76)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.db.ar.CActiveRecord] Evento.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `evento`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `evento`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_evento` AS `t0_c0`, `t`.`nombre` AS `t0_c1`, `t`.`costo` AS `t0_c2`, `t`.`id_profesor` AS `t0_c3`, `t`.`limite` AS `t0_c4`, `t`.`color` AS `t0_c5`, `horarios`.`id_horario` AS `t1_c0`, `horarios`.`dia` AS `t1_c1`, `horarios`.`orden` AS `t1_c2`, `horarios`.`hora_inicio` AS `t1_c3`, `horarios`.`hora_fin` AS `t1_c4`, `horarios`.`id_salon` AS `t1_c5`, `horarios`.`id_evento` AS `t1_c6`, `horarios`.`id_grupo` AS `t1_c7`, `horarios`.`disponibilidad` AS `t1_c8` FROM `evento` `t`  LEFT OUTER JOIN `horario` `horarios` ON (`horarios`.`id_evento`=`t`.`id_evento`)  WHERE (horarios.dia="lunes")
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `profesor`
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `profesor`
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:35:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `empleado`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `empleado`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:35:05 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `persona`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `persona`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:35:05 [trace] [system.db.ar.CActiveRecord] Contrato.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `contrata_horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contrata_horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `socio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `socio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_contrato` AS `t0_c0`, `t`.`id_evento` AS `t0_c1`, `t`.`id_socio` AS `t0_c2`, `t`.`estado` AS `t0_c3`, `t`.`fecha_contrata` AS `t0_c4`, `t`.`cantidad_clases` AS `t0_c5`, `t`.`tipo_contrato` AS `t0_c6`, `t`.`vencimiento` AS `t0_c7`, `t`.`saldo` AS `t0_c8`, `contrataHorarios`.`id_contrata_horario` AS `t1_c0`, `contrataHorarios`.`id_contrato` AS `t1_c1`, `contrataHorarios`.`id_horario` AS `t1_c2`, `idSocio`.`id_socio` AS `t2_c0`, `idSocio`.`id_persona` AS `t2_c1`, `idSocio`.`fecha_ingreso` AS `t2_c2`, `idSocio`.`nombre` AS `t2_c3`, `idSocio`.`apellido` AS `t2_c4` FROM `contrato` `t`  LEFT OUTER JOIN `contrata_horario` `contrataHorarios` ON (`contrataHorarios`.`id_contrato`=`t`.`id_contrato`)  LEFT OUTER JOIN `socio` `idSocio` ON (`t`.`id_socio`=`idSocio`.`id_socio`)  WHERE (estado<3) AND (id_horario=7)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:06 [trace] [system.db.ar.CActiveRecord] Contrato.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (104)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_contrato` AS `t0_c0`, `t`.`id_evento` AS `t0_c1`, `t`.`id_socio` AS `t0_c2`, `t`.`estado` AS `t0_c3`, `t`.`fecha_contrata` AS `t0_c4`, `t`.`cantidad_clases` AS `t0_c5`, `t`.`tipo_contrato` AS `t0_c6`, `t`.`vencimiento` AS `t0_c7`, `t`.`saldo` AS `t0_c8`, `idSocio`.`id_socio` AS `t1_c0`, `idSocio`.`id_persona` AS `t1_c1`, `idSocio`.`fecha_ingreso` AS `t1_c2`, `idSocio`.`nombre` AS `t1_c3`, `idSocio`.`apellido` AS `t1_c4` FROM `contrato` `t`  LEFT OUTER JOIN `socio` `idSocio` ON (`t`.`id_socio`=`idSocio`.`id_socio`)  WHERE (estado<3 AND tipo_contrato=3 AND id_evento=2)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (104)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:04 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:07 [trace] [system.web.filters.CFilterChain] Running filter AdministrarSocioController.filteraccessControl()
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:07 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:07 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:07 [trace] [system.db.ar.CActiveRecord] Socio.findByPk()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (214)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (70)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `socio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (214)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (70)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `socio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (214)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (70)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `socio` `t` WHERE `t`.`id_socio`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (214)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (70)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:07 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (179)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (7)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `persona`
+in C:\xampp\htdocs\gim\protected\models\Socio.php (179)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (7)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `persona`
+in C:\xampp\htdocs\gim\protected\models\Socio.php (179)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (7)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (179)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (7)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:07 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleSocio.php (78)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (30)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.contratos
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (63)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (31)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `contrato`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (63)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (31)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contrato`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (63)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (31)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `contratos`.`id_contrato` AS `t1_c0`, `contratos`.`id_evento` AS `t1_c1`, `contratos`.`id_socio` AS `t1_c2`, `contratos`.`estado` AS `t1_c3`, `contratos`.`fecha_contrata` AS `t1_c4`, `contratos`.`cantidad_clases` AS `t1_c5`, `contratos`.`tipo_contrato` AS `t1_c6`, `contratos`.`vencimiento` AS `t1_c7`, `contratos`.`saldo` AS `t1_c8` FROM `contrato` `contratos`  WHERE (`contratos`.`id_socio`=:ypl0)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (63)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (31)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Contrato.idEvento
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `evento`
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `evento`
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEvento`.`id_evento` AS `t1_c0`, `idEvento`.`nombre` AS `t1_c1`, `idEvento`.`costo` AS `t1_c2`, `idEvento`.`id_profesor` AS `t1_c3`, `idEvento`.`limite` AS `t1_c4`, `idEvento`.`color` AS `t1_c5` FROM `evento` `idEvento`  WHERE (`idEvento`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `profesor`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `profesor`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `empleado`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `empleado`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Contrato.idEvento
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEvento`.`id_evento` AS `t1_c0`, `idEvento`.`nombre` AS `t1_c1`, `idEvento`.`costo` AS `t1_c2`, `idEvento`.`id_profesor` AS `t1_c3`, `idEvento`.`limite` AS `t1_c4`, `idEvento`.`color` AS `t1_c5` FROM `evento` `idEvento`  WHERE (`idEvento`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (45)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (49)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_tablaDetalleEvento.php (77)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleEvento.php (45)
+2015/01/26 11:35:08 [trace] [system.db.ar.CActiveRecord] CuentaSocio.findAll()
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (15)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cuenta_socio`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (15)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cuenta_socio`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (15)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_cuenta_socio` AS `t0_c0`, `t`.`movimiento` AS `t0_c1`, `t`.`concepto` AS `t0_c2`, `t`.`id_descuento_recargo` AS `t0_c3`, `t`.`id_contrato` AS `t0_c4`, `t`.`monto` AS `t0_c5`, `t`.`fecha` AS `t0_c6`, `idContrato`.`id_contrato` AS `t1_c0`, `idContrato`.`id_evento` AS `t1_c1`, `idContrato`.`id_socio` AS `t1_c2`, `idContrato`.`estado` AS `t1_c3`, `idContrato`.`fecha_contrata` AS `t1_c4`, `idContrato`.`cantidad_clases` AS `t1_c5`, `idContrato`.`tipo_contrato` AS `t1_c6`, `idContrato`.`vencimiento` AS `t1_c7`, `idContrato`.`saldo` AS `t1_c8` FROM `cuenta_socio` `t`  LEFT OUTER JOIN `contrato` `idContrato` ON (`t`.`id_contrato`=`idContrato`.`id_contrato`)  WHERE (id_socio=1) ORDER BY t.id_cuenta_socio DESC, t.fecha DESC, t.id_contrato DESC, t.id_cuenta_socio ASC
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (15)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:09 [trace] [system.db.ar.CActiveRecord] DescuentoRecargo.findAll()
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (17)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `descuento_recargo`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (17)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `descuento_recargo`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (17)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `descuento_recargo` `t`
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (17)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:10 [trace] [system.db.ar.CActiveRecord] lazy loading Contrato.idEvento
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (42)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+2015/01/26 11:35:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEvento`.`id_evento` AS `t1_c0`, `idEvento`.`nombre` AS `t1_c1`, `idEvento`.`costo` AS `t1_c2`, `idEvento`.`id_profesor` AS `t1_c3`, `idEvento`.`limite` AS `t1_c4`, `idEvento`.`color` AS `t1_c5` FROM `evento` `idEvento`  WHERE (`idEvento`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (42)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+2015/01/26 11:35:10 [trace] [system.db.ar.CActiveRecord] lazy loading Contrato.idEvento
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (42)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+2015/01/26 11:35:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEvento`.`id_evento` AS `t1_c0`, `idEvento`.`nombre` AS `t1_c1`, `idEvento`.`costo` AS `t1_c2`, `idEvento`.`id_profesor` AS `t1_c3`, `idEvento`.`limite` AS `t1_c4`, `idEvento`.`color` AS `t1_c5` FROM `evento` `idEvento`  WHERE (`idEvento`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (42)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+2015/01/26 11:35:10 [trace] [system.db.ar.CActiveRecord] DescuentoRecargo.findByPk()
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (46)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `descuento_recargo` `t` WHERE `t`.`id_descuento_recargo`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (46)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:10 [trace] [system.db.ar.CActiveRecord] lazy loading Contrato.idEvento
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (42)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+2015/01/26 11:35:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEvento`.`id_evento` AS `t1_c0`, `idEvento`.`nombre` AS `t1_c1`, `idEvento`.`costo` AS `t1_c2`, `idEvento`.`id_profesor` AS `t1_c3`, `idEvento`.`limite` AS `t1_c4`, `idEvento`.`color` AS `t1_c5` FROM `evento` `idEvento`  WHERE (`idEvento`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Contrato.php (133)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\_detalleCuenta.php (42)
+in C:\xampp\htdocs\gim\protected\views\administrarSocio\detalles.php (32)
+2015/01/26 11:35:10 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\gim\protected\views\layouts\main.php (172)
+in C:\xampp\htdocs\gim\protected\views\layouts\column1.php (10)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarSocioController.php (94)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.web.filters.CFilterChain] Running filter AdministrarContratosController.filteraccessControl()
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.ar.CActiveRecord] Contrato.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (24)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (24)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (24)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contrato` `t` WHERE id_socio=1 AND estado!=3
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (24)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.ar.CActiveRecord] Evento.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (33)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `evento`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (33)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `evento`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (33)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `evento` `t` WHERE t.id_evento NOT IN (:ycp0, :ycp1) ORDER BY nombre DESC
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (33)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.precios
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `precio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `precio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `precios`.`id_precio` AS `t1_c0`, `precios`.`id_evento` AS `t1_c1`, `precios`.`tipo` AS `t1_c2`, `precios`.`descripcion` AS `t1_c3`, `precios`.`clases_x_semana` AS `t1_c4`, `precios`.`precio` AS `t1_c5` FROM `precio` `precios`  WHERE (`precios`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.precios
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `precios`.`id_precio` AS `t1_c0`, `precios`.`id_evento` AS `t1_c1`, `precios`.`tipo` AS `t1_c2`, `precios`.`descripcion` AS `t1_c3`, `precios`.`clases_x_semana` AS `t1_c4`, `precios`.`precio` AS `t1_c5` FROM `precio` `precios`  WHERE (`precios`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.precios
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `precios`.`id_precio` AS `t1_c0`, `precios`.`id_evento` AS `t1_c1`, `precios`.`tipo` AS `t1_c2`, `precios`.`descripcion` AS `t1_c3`, `precios`.`clases_x_semana` AS `t1_c4`, `precios`.`precio` AS `t1_c5` FROM `precio` `precios`  WHERE (`precios`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.precios
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `precios`.`id_precio` AS `t1_c0`, `precios`.`id_evento` AS `t1_c1`, `precios`.`tipo` AS `t1_c2`, `precios`.`descripcion` AS `t1_c3`, `precios`.`clases_x_semana` AS `t1_c4`, `precios`.`precio` AS `t1_c5` FROM `precio` `precios`  WHERE (`precios`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (43)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] DescuentoRecargo.findAll()
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\_precio.php (4)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (5)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `descuento_recargo`
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\_precio.php (4)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (5)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `descuento_recargo`
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\_precio.php (4)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (5)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `descuento_recargo` `t` WHERE tipo="descuento"
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\_precio.php (4)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (5)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] DescuentoRecargo.findAll()
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\_precio.php (6)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (5)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `descuento_recargo` `t` WHERE tipo="recargo"
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\_precio.php (6)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (5)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `profesor`
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `profesor`
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `empleado`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `empleado`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `persona`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `persona`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\views\administrarContratos\contratar.php (294)
+2015/01/26 11:35:13 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\gim\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:13 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\gim\protected\views\layouts\main.php (172)
+in C:\xampp\htdocs\gim\protected\views\layouts\column1.php (10)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (47)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.web.filters.CFilterChain] Running filter AdministrarContratosController.filteraccessControl()
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.ar.CActiveRecord] Evento.findByPk()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (651)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (511)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `evento`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (651)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (511)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `evento`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (651)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (511)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `evento` `t` WHERE `t`.`id_evento`=5 LIMIT 1
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (651)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (511)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.precios
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (521)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `precio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (521)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `precio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (521)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT `precios`.`id_precio` AS `t1_c0`, `precios`.`id_evento` AS `t1_c1`, `precios`.`tipo` AS `t1_c2`, `precios`.`descripcion` AS `t1_c3`, `precios`.`clases_x_semana` AS `t1_c4`, `precios`.`precio` AS `t1_c5` FROM `precio` `precios`  WHERE (`precios`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (521)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.horarios
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (539)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (539)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (539)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT `horarios`.`id_horario` AS `t1_c0`, `horarios`.`dia` AS `t1_c1`, `horarios`.`orden` AS `t1_c2`, `horarios`.`hora_inicio` AS `t1_c3`, `horarios`.`hora_fin` AS `t1_c4`, `horarios`.`id_salon` AS `t1_c5`, `horarios`.`id_evento` AS `t1_c6`, `horarios`.`id_grupo` AS `t1_c7`, `horarios`.`disponibilidad` AS `t1_c8` FROM `horario` `horarios`  WHERE (`horarios`.`id_evento`=:ypl0)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (539)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `profesor`
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `profesor`
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:15 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `empleado`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `empleado`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+2015/01/26 11:35:15 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `persona`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `persona`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+2015/01/26 11:35:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (545)
+2015/01/26 11:35:15 [trace] [system.db.ar.CActiveRecord] lazy loading Horario.idSalon
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (550)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `salon`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (550)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `salon`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (550)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idSalon`.`id_salon` AS `t1_c0`, `idSalon`.`nombre` AS `t1_c1`, `idSalon`.`color` AS `t1_c2`, `idSalon`.`capacidad_max` AS `t1_c3`, `idSalon`.`descripcion` AS `t1_c4` FROM `salon` `idSalon`  WHERE (`idSalon`.`id_salon`=:ypl0)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarContratosController.php (550)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:20 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:35:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\gim\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (89)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:19 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:19 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:19 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:19 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:19 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:19 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:19 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:20 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:20 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:20 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:20 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:21 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:21 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\gim\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (89)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:24 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:24 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:24 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:24 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:24 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:24 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:24 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\gim\protected\views\site\login.php (23)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (350)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:25 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\gim\protected\views\site\login.php (30)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (350)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:27 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:27 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:27 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:27 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:27 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.ar.CActiveRecord] Socio.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `socio`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `socio`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_socio` AS `t0_c0`, `t`.`id_persona` AS `t0_c1`, `t`.`fecha_ingreso` AS `t0_c2`, `t`.`nombre` AS `t0_c3`, `t`.`apellido` AS `t0_c4`, `contratos`.`estado` AS `t1_c3`, `contratos`.`id_contrato` AS `t1_c0` FROM `socio` `t`  LEFT OUTER JOIN `contrato` `contratos` ON (`contratos`.`id_socio`=`t`.`id_socio`)  WHERE (estado=2)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (108)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.ar.CActiveRecord] Socio.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (109)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `socio` `t`
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (109)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.ar.CActiveRecord] TablasInicio.findAll()
+in C:\xampp\htdocs\gim\protected\views\site\index.php (14)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tablas_inicio`
+in C:\xampp\htdocs\gim\protected\views\site\index.php (14)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tablas_inicio`
+in C:\xampp\htdocs\gim\protected\views\site\index.php (14)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tablas_inicio` `t` WHERE columna=1 ORDER BY fila ASC
+in C:\xampp\htdocs\gim\protected\views\site\index.php (14)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] TablasInicio.findAll()
+in C:\xampp\htdocs\gim\protected\views\site\index.php (16)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tablas_inicio` `t` WHERE columna=2 ORDER BY fila ASC
+in C:\xampp\htdocs\gim\protected\views\site\index.php (16)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `persona`
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `persona`
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] lazy loading Socio.idPersona
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Socio.php (166)
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_busqueda_rapida.php (34)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (63)
+2015/01/26 11:38:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_asistencias.php (38)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (76)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+2015/01/26 11:38:29 [trace] [system.db.ar.CActiveRecord] Socio.findAll()
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_cumpleaniero.php (7)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (76)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+2015/01/26 11:38:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_socio` AS `t0_c0`, `t`.`id_persona` AS `t0_c1`, `t`.`fecha_ingreso` AS `t0_c2`, `t`.`nombre` AS `t0_c3`, `t`.`apellido` AS `t0_c4`, `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `socio` `t`  LEFT OUTER JOIN `persona` `idPersona` ON (`t`.`id_persona`=`idPersona`.`id_persona`)  WHERE (DAYOFMONTH(fecha_nac)=DAYOFMONTH(CURDATE()) AND MONTH(fecha_nac)=MONTH(CURDATE()))
+in C:\xampp\htdocs\gim\protected\views\site\_tabla_cumpleaniero.php (7)
+in C:\xampp\htdocs\gim\protected\views\site\index.php (76)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (116)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.ar.CActiveRecord] Evento.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `evento`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `evento`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_evento` AS `t0_c0`, `t`.`nombre` AS `t0_c1`, `t`.`costo` AS `t0_c2`, `t`.`id_profesor` AS `t0_c3`, `t`.`limite` AS `t0_c4`, `t`.`color` AS `t0_c5`, `horarios`.`id_horario` AS `t1_c0`, `horarios`.`dia` AS `t1_c1`, `horarios`.`orden` AS `t1_c2`, `horarios`.`hora_inicio` AS `t1_c3`, `horarios`.`hora_fin` AS `t1_c4`, `horarios`.`id_salon` AS `t1_c5`, `horarios`.`id_evento` AS `t1_c6`, `horarios`.`id_grupo` AS `t1_c7`, `horarios`.`disponibilidad` AS `t1_c8` FROM `evento` `t`  LEFT OUTER JOIN `horario` `horarios` ON (`horarios`.`id_evento`=`t`.`id_evento`)  WHERE (horarios.dia="lunes")
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (72)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.ar.CActiveRecord] lazy loading Evento.idProfesor
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `profesor`
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `profesor`
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idProfesor`.`id_profesor` AS `t1_c0`, `idProfesor`.`id_empleado` AS `t1_c1` FROM `profesor` `idProfesor`  WHERE (`idProfesor`.`id_profesor`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (139)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.ar.CActiveRecord] lazy loading Profesor.idEmpleado
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `empleado`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `empleado`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idEmpleado`.`id_empleado` AS `t1_c0`, `idEmpleado`.`id_persona` AS `t1_c1`, `idEmpleado`.`fecha_ingreso` AS `t1_c2`, `idEmpleado`.`nombre` AS `t1_c3`, `idEmpleado`.`apellido` AS `t1_c4`, `idEmpleado`.`tipo` AS `t1_c5` FROM `empleado` `idEmpleado`  WHERE (`idEmpleado`.`id_empleado`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (111)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:38:30 [trace] [system.db.ar.CActiveRecord] lazy loading Empleado.idPersona
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `persona`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `persona`
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `idPersona`.`id_persona` AS `t1_c0`, `idPersona`.`nombre` AS `t1_c1`, `idPersona`.`apellido` AS `t1_c2`, `idPersona`.`dni` AS `t1_c3`, `idPersona`.`estado` AS `t1_c4`, `idPersona`.`direccion` AS `t1_c5`, `idPersona`.`email` AS `t1_c6`, `idPersona`.`telefono` AS `t1_c7`, `idPersona`.`fecha_nac` AS `t1_c8`, `idPersona`.`sexo` AS `t1_c9` FROM `persona` `idPersona`  WHERE (`idPersona`.`id_persona`=:ypl0)
+in C:\xampp\htdocs\gim\protected\models\Profesor.php (113)
+in C:\xampp\htdocs\gim\protected\models\Evento.php (141)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (79)
+2015/01/26 11:38:30 [trace] [system.db.ar.CActiveRecord] Contrato.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contrato`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `contrata_horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contrata_horario`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `socio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `socio`
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_contrato` AS `t0_c0`, `t`.`id_evento` AS `t0_c1`, `t`.`id_socio` AS `t0_c2`, `t`.`estado` AS `t0_c3`, `t`.`fecha_contrata` AS `t0_c4`, `t`.`cantidad_clases` AS `t0_c5`, `t`.`tipo_contrato` AS `t0_c6`, `t`.`vencimiento` AS `t0_c7`, `t`.`saldo` AS `t0_c8`, `contrataHorarios`.`id_contrata_horario` AS `t1_c0`, `contrataHorarios`.`id_contrato` AS `t1_c1`, `contrataHorarios`.`id_horario` AS `t1_c2`, `idSocio`.`id_socio` AS `t2_c0`, `idSocio`.`id_persona` AS `t2_c1`, `idSocio`.`fecha_ingreso` AS `t2_c2`, `idSocio`.`nombre` AS `t2_c3`, `idSocio`.`apellido` AS `t2_c4` FROM `contrato` `t`  LEFT OUTER JOIN `contrata_horario` `contrataHorarios` ON (`contrataHorarios`.`id_contrato`=`t`.`id_contrato`)  LEFT OUTER JOIN `socio` `idSocio` ON (`t`.`id_socio`=`idSocio`.`id_socio`)  WHERE (estado<3) AND (id_horario=7)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (86)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.ar.CActiveRecord] Contrato.findAll()
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (104)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id_contrato` AS `t0_c0`, `t`.`id_evento` AS `t0_c1`, `t`.`id_socio` AS `t0_c2`, `t`.`estado` AS `t0_c3`, `t`.`fecha_contrata` AS `t0_c4`, `t`.`cantidad_clases` AS `t0_c5`, `t`.`tipo_contrato` AS `t0_c6`, `t`.`vencimiento` AS `t0_c7`, `t`.`saldo` AS `t0_c8`, `idSocio`.`id_socio` AS `t1_c0`, `idSocio`.`id_persona` AS `t1_c1`, `idSocio`.`fecha_ingreso` AS `t1_c2`, `idSocio`.`nombre` AS `t1_c3`, `idSocio`.`apellido` AS `t1_c4` FROM `contrato` `t`  LEFT OUTER JOIN `socio` `idSocio` ON (`t`.`id_socio`=`idSocio`.`id_socio`)  WHERE (estado<3 AND tipo_contrato=3 AND id_evento=2)
+in C:\xampp\htdocs\gim\protected\controllers\AdministrarAsistenciasController.php (104)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:32 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:32 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:32 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:32 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (414)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (204)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (402)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (407)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\packages.php (14)
+in C:\xampp\htdocs\gim\protected\extensions\bootstrap\components\Bootstrap.php (252)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "EJSUrlManager" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\gim\protected\extensions\JSUrlManager\EJSUrlManager.php (7)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "configuracion" application component
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.ar.CActiveRecord] Configuraciones.findByPk()
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `configuraciones`
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `configuraciones` `t` WHERE `t`.`id`=1 LIMIT 1
+in C:\xampp\htdocs\gim\protected\components\Configuracion.php (15)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\gim\protected\components\Controller.php (37)
+in C:\xampp\htdocs\gim\index.php (13)
+2015/01/26 11:38:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\gim\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\gim\protected\controllers\SiteController.php (89)
+in C:\xampp\htdocs\gim\index.php (13)
